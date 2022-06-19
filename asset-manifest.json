@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/space-y/static/css/main.cfe85ea7.css",
+    "main.js": "/space-y/static/js/main.b1500452.js",
+    "static/media/background-4.webp": "/space-y/static/media/background-4.11b82402ea5848d8d48d.webp",
+    "static/media/background-3.webp": "/space-y/static/media/background-3.c49b80fcb9a1a7b3a65b.webp",
+    "static/media/background-1.webp": "/space-y/static/media/background-1.acd50e746fc6b31c78ea.webp",
+    "static/media/background-0.webp": "/space-y/static/media/background-0.0b5fe792419a9e94ac81.webp",
+    "static/media/D-DIN-Bold.otf": "/space-y/static/media/D-DIN-Bold.7bb4b1a4a4621668d12a.otf",
+    "static/media/D-DIN.otf": "/space-y/static/media/D-DIN.31d456695bd8dea72c8a.otf",
+    "static/media/background-2.webp": "/space-y/static/media/background-2.2b58794653827d10dd30.webp",
+    "static/media/DINBold.ttf": "/space-y/static/media/DINBold.b4aac188a9bbac4c1c63.ttf",
+    "static/media/DINRegular.ttf": "/space-y/static/media/DINRegular.93f8fccd22ac0821a21c.ttf",
+    "static/media/DINMedium.ttf": "/space-y/static/media/DINMedium.0040d400ff3ff24c809d.ttf",
+    "static/media/spacex-logo.png": "/space-y/static/media/spacex-logo.8b9e72e319c85f7d93c6.png",
+    "index.html": "/space-y/index.html",
+    "main.cfe85ea7.css.map": "/space-y/static/css/main.cfe85ea7.css.map",
+    "main.b1500452.js.map": "/space-y/static/js/main.b1500452.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfe85ea7.css",
+    "static/js/main.b1500452.js"
+  ]
+}
