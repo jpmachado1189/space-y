@@ -1,0 +1,36 @@
+.scroll-arrow {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 30px;
+  animation: pulse 3.5s cubic-bezier(0.41, -0.36, 0.32, 0.52) forwards infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0%;
+  }
+
+  15% {
+    padding-top: 0px;
+    opacity: 100%;
+  }
+
+  50% {
+    padding-top: 15px;
+    opacity: 20%;
+  }
+
+  55% {
+    padding-top: 15px;
+    opacity: 0%;
+  }
+
+  100% {
+    padding-top: 15px;
+    opacity: 0%;
+  }
+}

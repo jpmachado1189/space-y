@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'D-DIN-Med';
+  src: url('./fonts/D-DIN.otf');
+}
+
+.footer {
+  background-color: #000000;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 7px;
+}

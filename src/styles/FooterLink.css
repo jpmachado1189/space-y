@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'D-DIN-Med';
+  src: url('./fonts/D-DIN.otf');
+}
+
+.footer-link {
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+.footer-link:hover {
+  filter: brightness(40%);
+}

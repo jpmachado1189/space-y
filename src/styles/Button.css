@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'D-DIN-Bold2';
+  src: url('./fonts/DINBold.ttf');
+}
+
+.btn-landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background-color: transparent;
+  width: 164px;
+  height: 54px;
+  margin-top: 32px;
+  transition: cubic-bezier(0.25, 1, 0.25, 1);
+  transition-duration: 1;
+  z-index: 99;
+}
+
+.btn-landing-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 164px;
+  height: 54px;
+  font-family: 'D-DIN-Bold2';
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  z-index: 100;
+  transition-duration: 0.3s;
+}
+
+.btn-landing-text:hover {
+  color: black;
+}
+
+.btn-landing::before {
+  position: absolute;
+  content: '';
+  background: white;
+  display: block;
+  bottom: 0px;
+  width: 164px;
+  height: 54px;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform ease-in-out 0.2s;
+}
+
+.btn-landing:hover::before {
+  position: absolute;
+  content: '';
+  background: white;
+  display: block;
+  bottom: 0px;
+  width: 164px;
+  height: 54px;
+  transform: scaleY(1);
+  transform-origin: bottom;
+}

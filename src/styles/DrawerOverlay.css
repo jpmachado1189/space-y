@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'D-DIN-Reg';
+  src: url('./fonts/DINRegular.ttf');
+}
+
+.drawer-item {
+  transition-duration: 0.4s;
+}
+
+.drawer-item:hover {
+  filter: brightness(40%);
+}
