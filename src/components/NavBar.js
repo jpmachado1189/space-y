@@ -47,6 +47,10 @@ const NavBar = () => {
     window.addEventListener('resize', handleResize);
   });
 
+  useEffect(() => {
+    handleResize();
+  });
+
   // Prerender the navbar links by mapping the macro
   const renderedLinks = NAVLINKS.map(link => {
     return <NavItem key={link} text={link} href={HREF} />;
